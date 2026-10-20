@@ -1,0 +1,44 @@
+{
+  "densenet121": {
+    "threshold": 0.5,
+    "best_epoch": 9,
+    "epochs_trained": 14,
+    "metrics": {
+      "accuracy": 0.905448717948718,
+      "balanced_accuracy": 0.8764957264957265,
+      "f1": 0.929171668667467,
+      "precision": 0.873589164785553,
+      "recall": 0.9923076923076923,
+      "specificity": 0.7606837606837606
+    },
+    "confusion_matrix": [[178, 56], [3, 387]]
+  },
+  "resnet34": {
+    "threshold": 0.5,
+    "best_epoch": 9,
+    "epochs_trained": 14,
+    "metrics": {
+      "accuracy": 0.8894230769230769,
+      "balanced_accuracy": 0.8551282051282052,
+      "f1": 0.9181494661921709,
+      "precision": 0.8543046357615894,
+      "recall": 0.9923076923076923,
+      "specificity": 0.717948717948718
+    },
+    "confusion_matrix": [[168, 66], [3, 387]]
+  },
+  "resnet50": {
+    "threshold": 0.5,
+    "best_epoch": 9,
+    "epochs_trained": 14,
+    "metrics": {
+      "accuracy": 0.8605769230769231,
+      "balanced_accuracy": 0.8166666666666667,
+      "f1": 0.8989547038327527,
+      "precision": 0.821656050955414,
+      "recall": 0.9923076923076923,
+      "specificity": 0.6410256410256411
+    },
+    "confusion_matrix": [[150, 84], [3, 387]]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.14.0+cu126",
+    "torchvision": "0.29.0+cu126",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "Pillow": "12.3.0"
+  },
+  "gpu": "Tesla T4",
+  "cuda": "12.6",
+  "threshold": 0.5,
+  "dataset_sha256": "4d0013e524bee56f2b2062d0380d51943eb1d4c6b664374a062ceafde46d0e27",
+  "split_sha256": "4b8289ab7efe71eee7fb740b4a47c3aaff9084116acd0204dfd98a20998322b0",
+  "counts": {
+    "train": {"NORMAL": 1341, "PNEUMONIA": 3875},
+    "test": {"NORMAL": 234, "PNEUMONIA": 390}
+  },
+  "partition_counts": {
+    "train": {"NORMAL": 1073, "PNEUMONIA": 3100},
+    "validation": {"NORMAL": 268, "PNEUMONIA": 775}
+  }
+}
